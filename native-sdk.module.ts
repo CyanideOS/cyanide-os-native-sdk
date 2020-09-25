@@ -5,10 +5,9 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
 import { NativeButton } from "./ui/button/button.component";
 import { NativeCheckbox } from "./ui/checkbox/checkbox.component";
 import { TextboxComponent } from "./ui/textbox/textbox.component";
-import { SafeUrlPipe } from "./pipes/safe-url/safe-url.pipe";
 
 @NgModule({
-  declarations: [NativeButton, NativeCheckbox, TextboxComponent, SafeUrlPipe],
+  declarations: [NativeButton, NativeCheckbox, TextboxComponent],
   exports: [NativeButton, NativeCheckbox, TextboxComponent],
   imports: [CommonModule, DragDropModule],
 })
