@@ -1,7 +1,4 @@
 @import "./theme";
-@import "../../../scss/constants";
-
-$lightness-threshold: 50;
 
 @mixin text-color($background, $isDisabled: false) {
   @if (lightness($background) > $lightness-threshold) {
