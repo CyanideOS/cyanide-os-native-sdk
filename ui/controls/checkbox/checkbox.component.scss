@@ -3,7 +3,7 @@
 .checkbox {
   display: flex;
   align-items: center;
-  justify-content: center;
+  margin: 0.6rem 0;
 
   .indicator {
     border: 3px solid map-get($map: $primary, $key: "color");
