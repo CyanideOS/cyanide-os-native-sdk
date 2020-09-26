@@ -1,3 +1,9 @@
-<div class="v-stack">
+<div
+  class="v-stack"
+  [ngStyle]="{
+    'align-items': crossAlignment,
+    'justify-content': mainAlignment
+  }"
+>
   <ng-content></ng-content>
 </div>

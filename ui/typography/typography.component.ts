@@ -6,9 +6,6 @@ import { Component, Input, OnInit } from "@angular/core";
   styleUrls: ["./typography.component.scss"],
 })
 export class TypographyComponent implements OnInit {
-  @Input("content")
-  content: string = "";
-
   @Input("variant")
   variant: "h1" | "h2" | "h3" | "h4" | "h5" | "h6" = "h6";
 

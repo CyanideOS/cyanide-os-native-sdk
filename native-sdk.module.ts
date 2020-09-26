@@ -8,6 +8,7 @@ import { TextboxComponent } from "./ui/controls/textbox/textbox.component";
 import { VStackComponent } from "./ui/layout/v-stack/v-stack.component";
 import { HStackComponent } from "./ui/layout/h-stack/h-stack.component";
 import { TypographyComponent } from "./ui/typography/typography.component";
+import { SpacerComponent } from "./ui/layout/spacer/spacer.component";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { TypographyComponent } from "./ui/typography/typography.component";
     VStackComponent,
     HStackComponent,
     TypographyComponent,
+    SpacerComponent,
   ],
   exports: [
     /// Controls
@@ -29,6 +31,7 @@ import { TypographyComponent } from "./ui/typography/typography.component";
     VStackComponent,
     HStackComponent,
     TypographyComponent,
+    SpacerComponent,
   ],
   imports: [CommonModule, DragDropModule],
 })
