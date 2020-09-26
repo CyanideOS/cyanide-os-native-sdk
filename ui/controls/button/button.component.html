@@ -13,13 +13,23 @@
     'max-height': height + 'rem',
     'text-overflow': overflow
   }"
-  [ngClass]="{ disabled: isDisabled, outlined: isOutlined }"
+  [ngClass]="{
+    disabled: isDisabled,
+    outlined: isOutlined,
+    'padding-with-text': innerText
+  }"
 >
   <div class="content">
-    <img class="button-icon" [src]="icon" *ngIf="icon" />
+    <img
+      class="button-icon"
+      [ngClass]="{ 'right-space': innerText || nutellaIcon }"
+      [src]="icon"
+      *ngIf="icon"
+    />
     <img
       class="nutella-icon"
       [src]="'../../assets/icons/nutella/' + nutellaIcon + '.png'"
+      [ngClass]="{ 'right-space': innerText }"
       *ngIf="nutellaIcon"
     />
     <div class="innerText" *ngIf="innerText" [innerText]="innerText"></div>

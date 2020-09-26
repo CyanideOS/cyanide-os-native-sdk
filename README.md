@@ -7,7 +7,6 @@ Library that contains native components.
 ## Controls
 
 - [x] NativeButton
-  - [ ] NativeIconButton
 - [x] NativeTextbox
 - [x] NativeCheckbox
 - [ ] NativeRadioButton
