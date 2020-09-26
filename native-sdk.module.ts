@@ -7,6 +7,7 @@ import { NativeCheckbox } from "./ui/controls/checkbox/checkbox.component";
 import { TextboxComponent } from "./ui/controls/textbox/textbox.component";
 import { VStackComponent } from "./ui/layout/v-stack/v-stack.component";
 import { HStackComponent } from "./ui/layout/h-stack/h-stack.component";
+import { TypographyComponent } from "./ui/typography/typography.component";
 
 @NgModule({
   declarations: [
@@ -17,8 +18,14 @@ import { HStackComponent } from "./ui/layout/h-stack/h-stack.component";
     /// Layout
     VStackComponent,
     HStackComponent,
+    TypographyComponent,
   ],
-  exports: [NativeButton, NativeCheckbox, TextboxComponent],
+  exports: [
+    NativeButton,
+    NativeCheckbox,
+    TextboxComponent,
+    TypographyComponent,
+  ],
   imports: [CommonModule, DragDropModule],
 })
 export class NativeSdkModule {}
