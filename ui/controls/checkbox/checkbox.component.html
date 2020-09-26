@@ -1,5 +1,5 @@
-<div class="checkbox">
-  <div class="indicator">
+<div class="checkbox" (click)="isChecked = !isChecked">
+  <div class="indicator" [ngClass]="{ checked: isChecked }">
     <img src="../../assets/icons/native-ui/single-checkbox-tick.svg" alt="" />
   </div>
   <div class="text">Use Cyanide OS</div>
