@@ -70,17 +70,14 @@ button {
       font-weight: 500;
     }
 
-    .button-component-data,
-    .innerText {
-      margin-left: 0.7rem;
-    }
-
     img.button-icon {
       height: 100%;
+      margin-right: 0.7rem;
     }
 
     img.nutella-icon {
       height: 100%;
+      margin-right: 0.7rem;
 
       @include image-color($background);
     }

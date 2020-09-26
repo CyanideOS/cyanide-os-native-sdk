@@ -22,11 +22,6 @@
       [src]="'../../assets/icons/nutella/' + nutellaIcon + '.png'"
       *ngIf="nutellaIcon"
     />
-    <div
-      class="button-component-data"
-      *ngIf="innerComponent"
-      [innerHTML]="innerComponent.outerHTML"
-    ></div>
     <div class="innerText" *ngIf="innerText" [innerText]="innerText"></div>
   </div>
 </button>
