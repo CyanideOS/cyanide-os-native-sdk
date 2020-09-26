@@ -1,1 +1,9 @@
-<p>h-stack works!</p>
+<div
+  class="h-stack"
+  [ngStyle]="{
+    'align-items': crossAlignment,
+    'justify-content': mainAlignment
+  }"
+>
+  <ng-content></ng-content>
+</div>

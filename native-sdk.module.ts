@@ -21,9 +21,13 @@ import { TypographyComponent } from "./ui/typography/typography.component";
     TypographyComponent,
   ],
   exports: [
+    /// Controls
     NativeButton,
     NativeCheckbox,
     TextboxComponent,
+    /// Layout
+    VStackComponent,
+    HStackComponent,
     TypographyComponent,
   ],
   imports: [CommonModule, DragDropModule],
