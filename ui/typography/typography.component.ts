@@ -25,27 +25,31 @@ export class TypographyComponent implements OnInit {
     const variants = {
       h1: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 32,
       },
       h2: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 24,
       },
       h3: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 18.72,
       },
       h4: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 16,
       },
       h5: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 13.28,
       },
       h6: {
         fontWeight: 600,
-        fontSize: 20,
+        fontSize: 10.72,
+      },
+      p: {
+        fontWeight: 400,
+        fontSize: 16,
       },
     };
     this.fontSize = variants[this.variant].fontSize;
