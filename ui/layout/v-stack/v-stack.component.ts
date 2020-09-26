@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-v-stack',
-  templateUrl: './v-stack.component.html',
-  styleUrls: ['./v-stack.component.scss']
+  selector: "VStack",
+  templateUrl: "./v-stack.component.html",
+  styleUrls: ["./v-stack.component.scss"],
 })
 export class VStackComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
