@@ -1,9 +1,10 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input, OnInit, ViewEncapsulation } from "@angular/core";
 
 @Component({
   selector: "VStack",
   templateUrl: "./v-stack.component.html",
   styleUrls: ["./v-stack.component.scss"],
+  encapsulation: ViewEncapsulation.None,
 })
 export class VStackComponent implements OnInit {
   @Input("crossAxisAlignment")
