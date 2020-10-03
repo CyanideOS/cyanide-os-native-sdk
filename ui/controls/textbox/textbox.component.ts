@@ -1,10 +1,11 @@
-import { Component, Input, OnInit } from "@angular/core";
+import { Component, Input, OnInit, ViewEncapsulation } from "@angular/core";
 import { BehaviorSubject } from "rxjs";
 
 @Component({
   selector: "NativeTextbox",
   templateUrl: "./textbox.component.html",
   styleUrls: ["./textbox.component.scss"],
+  encapsulation: ViewEncapsulation.None,
 })
 export class TextboxComponent implements OnInit {
   @Input("isDisabled") isDisabled: boolean = false;
